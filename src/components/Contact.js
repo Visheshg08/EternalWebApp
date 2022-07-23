@@ -1,6 +1,10 @@
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 function Contact() {
   return (
+    
     <div className="container contact">
+      
       <h2 className="main-title text-center">CONTACT</h2>
       <div className="col-md-12">
         <div className="row">
@@ -36,6 +40,9 @@ function Contact() {
         </div>
       </div>
     </div>
+  
   );
 }
+
+
 export default Contact;
