@@ -1,21 +1,40 @@
-import {emailjs} from "emialjs-com"
 import React from 'react';
 
 
 
+
+
+
 function Contact() {
+  
 
-
-  function sendEmail(e){
+  async function sendEmail(e){
+    console.log(window)
     e.preventDefault()
-      
-    emailjs.send("service_8zifnyg", "template_e7hqvog",e.target,"fHlgxCGt4t1Xj1doh")
-    .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    });
-  }  
+    
+    const name= e.target.name.value;
+    const email= e.target.email.value;
+    const contact_number=e.target.number.value;
+    const message= e.target.message.value;
+    
+    const template_params= {
+      "name": name,
+      "email":email,
+      "message":message,
+      "number":contact_number
+
+  }
+    window.emailjs.send("service_8zifnyg", "template_e7hqvog",template_params)
+    .then((res)=>{
+      alert("mail sent successfully")
+    })
+    .catch((err)=>{
+      console.log(err)
+      alert("Mail could not be sent please try again!")
+    })
+  }
+
+
 
   return (
     
