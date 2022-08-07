@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import React from 'react';
 
 function Navbar() {
   document.addEventListener("scroll", function (e) {

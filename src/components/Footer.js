@@ -1,5 +1,5 @@
 import { Link, animateScroll as scroll } from 'react-scroll'
-
+import React from 'react';
 function Footer() {
 
 
