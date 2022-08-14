@@ -3,7 +3,7 @@ function Header() {
   return (
     <header>
       <video src="/video.mp4" loop autoPlay muted></video>
-      <h1>Eternal Cloud Solutions</h1>
+      <h1>Eternal Cloud Services</h1>
       <div className="row">
         
 
