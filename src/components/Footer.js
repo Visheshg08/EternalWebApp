@@ -7,10 +7,10 @@ function Footer() {
     <footer>
       <div className="container">
         <div className="row">
-          <div className="side1">
-            <div className="row">
+          
+          
               <div className="col-md-3">
-                <h1 className="logo">Eternal Cloud Solutions </h1>
+                <h1 className="logo">Eternal Cloud Services </h1>
                 <p className="footer-text">
                   Building on Trust
         
@@ -23,30 +23,29 @@ function Footer() {
                   <Link   
                          spy={true}
                          smooth={true}
-                         duration={1000}
+                         duration={800}
                          to="headerbg"
                   > Home </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                  <Link to="services" spy={true} smooth={true} duration={800} > Services </Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
+                  <Link to="about-scroll" spy={true} smooth={true} duration={800}>About Us  </Link>
                   </li>
                   <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <Link to="contact" spy={true} smooth={true} duration={800}> Contact  </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              
           </div>
-          <div className="side2">
-            <div className="row">
+          
+          
               <div className="col-md-3">
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#" >eternalcloudservices@gmail.com</Link>
+                    <Link to="#" >admin@eternalcloudservices.com</Link>
                   </li>
               
                   <li>
@@ -62,8 +61,7 @@ function Footer() {
                     <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/eternal-cloud-services/"> Linkedin</a>
                   </li>
                 </ul>
-              </div>
-            </div>
+              
           </div>
         </div>
       </div>

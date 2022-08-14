@@ -38,9 +38,9 @@ function Contact() {
 
   return (
     
-    <div className="container contact" id="form">
+    <div className="container contact" id="form" align="center">
       <form onSubmit={sendEmail} >
-        <h2>CONTACT</h2>
+        <h2 className='main-title'>CONTACT</h2>
         <input type="text" id="name" placeholder="Name" name="name" required></input>
         <input type="email" id="email" placeholder="Email Id" email="email" required></input>
         <input type="text" id="phone" placeholder="Phone no." name="number"></input>

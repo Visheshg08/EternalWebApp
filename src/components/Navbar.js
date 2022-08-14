@@ -39,14 +39,15 @@ function Navbar() {
             <Link
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={800}
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
               
-              Eternal Cloud Solutions
+              Eternal Cloud Services
             </Link>
           </h1>
+          <div className="right">
           <ul className="bar">
             <li>
               <Link
@@ -54,7 +55,7 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                duration={1000}
+                duration={800}
                 to="headerbg"
               >
                 Home
@@ -67,7 +68,7 @@ function Navbar() {
                 to="services"
                 spy={true}
                 smooth={true}
-                duration={1000}
+                duration={800}
               >
                 Services
               </Link>
@@ -101,6 +102,7 @@ function Navbar() {
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
+          </div>
           </div>
         </div>
       </div>
